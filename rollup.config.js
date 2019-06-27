@@ -10,13 +10,6 @@ export default  {
     file: 'dist/tree-hugger.min.js',
     format: 'umd',
     name: 'TreeHugger',
-    globals: {
-      '@babel/runtime/regenerator': '_regeneratorRuntime',
-      '@babel/runtime/helpers/asyncToGenerator': '_asyncToGenerator',
-      '@babel/runtime/helpers/objectSpread': '_objectSpread',
-      '@babel/runtime/helpers/classCallCheck': '_classCallCheck',
-      '@babel/runtime/helpers/createClass': '_createClass'
-    }
   },
   
   plugins: [
@@ -26,9 +19,7 @@ export default  {
     commonjs(),
     babel({
       exclude: 'node_modules/**',
-      runtimeHelpers: true,
       presets: ['@babel/preset-env'],
-      plugins: ['@babel/plugin-transform-runtime']
     }),
     uglify({
       mangle: {
