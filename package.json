@@ -1,5 +1,5 @@
 {
-  "name": "tree-hugger",
+  "name": "meta-tree-hugger",
   "version": "0.0.1",
   "description": "A Metanet tree traversal tool.",
   "main": "lib/index.js",
