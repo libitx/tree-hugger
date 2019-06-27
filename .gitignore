@@ -2,3 +2,5 @@
 
 node_modules
 test/dummy
+
+yarn-*.log
