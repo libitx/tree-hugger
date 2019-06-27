@@ -2,7 +2,7 @@
 
 *Tree Hugger* is a small JavaScript library for traversing the Metanet.  It is a higher-level interface over the top of the [Metanaria API](https://metanaria.planaria.network/), providing a simple API for finding Metanet nodes and traversing tree structures.
 
-*Tree Hugger* works in both NodeJS and ~browser~ *(soon)* environments.
+*Tree Hugger* works in both NodeJS and browser environments.
 
 ## Installation
 
@@ -14,13 +14,23 @@ npm install meta-tree-hugger
 yarn add meta-tree-hugger
 ```
 
+Include *Tree Hugger* in your NodeJS project:
+
+```javascript
+import TreeHugger from 'meta-tree-hugger'
+```
+
+... or in a browser:
+
+```html
+<script src="https://unpkg.com/meta-tree-hugger/dist/tree-hugger.min.js"></script>
+```
+
 ## Find a Metanet node
 
 Lookup a Metanet node either by it's node `id` or `txid`.
 
 ```javascript
-import TreeHugger from 'meta-tree-hugger'
-
 // Find a single node
 await TreeHugger.findNodeById(id)
 await TreeHugger.findNodeByTxid(txid)
