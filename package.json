@@ -1,6 +1,6 @@
 {
   "name": "meta-tree-hugger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Metanet tree traversal tool.",
   "main": "lib/index.js",
   "browser": "dist/tree-hugger.min.js",
