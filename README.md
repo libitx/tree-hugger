@@ -80,10 +80,12 @@ await node.ancestors()
 await node.siblings()
 await node.children()
 await node.descendants()
+await node.versions()
 await node.selfAndAncestors()
 await node.selfAndSiblings()
 await node.selfAndChildren()
 await node.selfAndDescendants()
+await node.selfAndVersions()
 
 // All traversal methods accept an optional parameter
 // which can be used to define additional bitquery config
