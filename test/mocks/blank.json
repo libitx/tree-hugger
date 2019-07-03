@@ -1,1 +1,4 @@
-{"metanet":[]}
+{
+  "v":3,"q":{"sort":{"blk.i":-1,"i":-1},"limit":1,"find":{"node.id":"abc"}},
+  "metanet":[]
+}
