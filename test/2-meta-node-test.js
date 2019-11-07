@@ -4,7 +4,7 @@ const TreeHugger = require('../lib/index')
 const MetaNode = require('../lib/meta-node')
 
 const setupMock = path => {
-  nock('https://metanaria.planaria.network')
+  nock('https://mom.planaria.network')
     .filteringPath(path => '/testing')
     .get('/testing')
     .once()
@@ -35,7 +35,7 @@ describe('MetaNode instance attributes', () => {
     expect(typeof subject.opReturn).toEqual('object')
     expect(subject.inputs).toEqual(subject.tx.in)
     expect(subject.outputs).toEqual(subject.tx.out)
-    expect(subject.outputs).toContain(subject.opReturn)
+    expect(subject.outputs.map(o => o.tape)).toContain(subject.opReturn)
   })
 })
 

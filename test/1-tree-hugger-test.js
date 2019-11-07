@@ -3,7 +3,7 @@ const TreeHugger = require('../lib/index')
 const MetaNode = require('../lib/meta-node')
 
 const setupMock = path => {
-  nock('https://metanaria.planaria.network')
+  nock('https://mom.planaria.network')
     .filteringPath(path => '/testing')
     .get('/testing')
     .once()
