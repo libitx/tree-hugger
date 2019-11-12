@@ -118,4 +118,4 @@ node.opReturn   // Shortcut to the OP_RETURN tape
 
 *Tree Hugger* is open source and released under the [MIT License](LICENSE.md).
 
-Copyright (c) 2018 libitx.
+Copyright (c) 2019 libitx.
