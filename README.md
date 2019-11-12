@@ -1,6 +1,6 @@
 # Tree Hugger
 
-*Tree Hugger* is a small JavaScript library for traversing the Metanet.  It is a higher-level interface over the top of the [Metanaria API](https://metanaria.planaria.network/), providing a simple API for finding Metanet nodes and traversing tree structures.
+*Tree Hugger* is a small JavaScript library for traversing the Metanet.  It is a higher-level interface over the top of the [MOM API](https://mom.planaria.network/), providing a simple API for finding Metanet nodes and traversing tree structures.
 
 *Tree Hugger* works in both NodeJS and browser environments.
 
@@ -111,7 +111,7 @@ node.tx         // Access the Planaria tx object
 
 node.inputs     // Shortcut to node.tx.in
 node.outputs    // Shortcut to node.tx.out
-node.opReturn   // Shortcut to the OP_RETURN output object
+node.opReturn   // Shortcut to the OP_RETURN tape
 ```
 
 ## License
