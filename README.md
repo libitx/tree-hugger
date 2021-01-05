@@ -1,6 +1,6 @@
 # Tree Hugger
 
-<p class="callout danger">Project is no longer maintained</p>
+> Project is no longer maintained
 
 Tree Hugger depends on Planaria APIs which are now deprecated. For this reason Tree Hugger is no longer maintained and this repo has been archived.
 
