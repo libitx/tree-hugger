@@ -1,5 +1,11 @@
 # Tree Hugger
 
+<p class="callout danger">Project is no longer maintained</p>
+
+Tree Hugger depends on Planaria APIs which are now deprecated. For this reason Tree Hugger is no longer maintained and this repo has been archived.
+
+---
+
 *Tree Hugger* is a small JavaScript library for traversing the Metanet.  It is a higher-level interface over the top of the [MOM API](https://mom.planaria.network/), providing a simple API for finding Metanet nodes and traversing tree structures.
 
 *Tree Hugger* works in both NodeJS and browser environments.
